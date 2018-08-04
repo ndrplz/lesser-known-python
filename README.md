@@ -7,4 +7,5 @@ Although the features collected here may not be widely known, they are supposed 
 
 ## Index
 
-* [**Why `functools.partial` may declutter your code**](./functools_partial.md)
+* [**Why `functools.partial` may declutter your code**](./src/functools_partial.md)
+* [**Tuples can be useful for organizing your imports**](./src/tuples_imports.md)
