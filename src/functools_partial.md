@@ -1,4 +1,4 @@
-# Why `Functools.partial` may declutter your code
+# Why `functools.partial` may declutter your code
 
 ### Motivation
 If you're a code-writing kind of guy, from time to time you may have found yourself in the situation in which you have to call the same function multiple times, with only a small or no variation in the parameters. So in multiple places you have this *looong* signature with a *loots* of parameters, although maybe 90% of them are just always the same.
