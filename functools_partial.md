@@ -32,7 +32,7 @@ So, let's see a real-world example to see how this may be useful.
 
 Since I work a lot with deep networks, the first example that came to my mind is related to the topic. But relax, to our purpose no domain knowledge is necessary. The example explains by itself.
 
-Let's say we want to define a convolutional neural netowrk in TensorFlow. If you know the topic, the following are the first three block of layers of VGG19 network. If you're not really into the field and you don't know what a convolution is, that's totally fine too. For our aim, the only important thing is that we have to repeatedly use a the `tf.layers.conv2d` function with a specific set of arguments.
+Let's say we want to define a convolutional neural network in TensorFlow. By the way, the following are the first three block of layers of VGG19 network, if you know what I'm talking about. But if you're not really into the field and you don't know what a convolution is, that's totally fine too. For our aim, the only important thing is that we have to repeatedly use the `tf.layers.conv2d` function with a specific set of arguments.
 
 Here is how our code looks like at this point:
 ```python
@@ -94,4 +94,4 @@ def conv2d_vgg(input, name):
     return tf.layers.conv2d(input, kernel_size=(3, 3), padding='same', activation=tf.nn.relu,
     use_bias=True, name=name)
 ```
-but this would have taken more lines, and then maybe it would end up in a different file or module, forcing the reader to look for it somewhere else. Instead, using `functools.partial` as above allows to declutter the code while keeping everything in the same place. So overall I find it is a particularly elegant solution. What's your take on this?
+but this would have taken more lines, and then maybe it would end up in a different file or module, forcing the reader to look for it somewhere else to understand what's going on. Instead, using `functools.partial` as above allows to declutter the code while keeping everything in the same place. So overall I find it is a particularly elegant solution. What's your take on this?
