@@ -8,5 +8,6 @@ Although the features collected here may not be widely known, they are supposed 
 ## Index
 
 * [**Why `functools.partial` may declutter your code**](./src/functools_partial.md)
-* [**Tuples can be useful for organizing your imports**](./src/tuples_imports.md)
+* [**`Tuples` can be useful for organizing your `imports`**](./src/tuples_imports.md)
 * [**Using `timeit` module for easy timing of small bits of code**](./src/timeit.ipynb)
+* [**`Type hints`: what are these guys?**](./src/type_hints.ipynb)
