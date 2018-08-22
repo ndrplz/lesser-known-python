@@ -11,3 +11,4 @@ Although the features collected here may not be widely known, they are supposed 
 * [**`Tuples` can be useful for organizing your `imports`**](./src/tuples_imports.md)
 * [**Using `timeit` module for easy timing of small bits of code**](./src/timeit.ipynb)
 * [**`Type hints`: what are these guys?**](./src/type_hints.ipynb)
+* [**`@` infix operator for matrix multiplication**](./src/matmul_infix_op.ipynb)
