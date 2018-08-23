@@ -3,7 +3,7 @@ Collection of lesser-known python features that you will love (and use).
 
 **I code in Python a lot, and from time to time I learn something new that makes me exclaim "*Wow! That's cool! I wonder how I didn't know that before!*". The goal of this repository is to collect these kind of discoveries.**
 
-Although the features collected here may not be widely known, they are supposed to be potentially useful in your day-to-day work (and mine too!). The goal is *not* to collect tricks or surprising behaviors that make you ask yourself "WTF is going on here?". If this is what you were looking for this is not the right place, but I can recommend you the amazing [wtfpython](https://github.com/satwikkansal/wtfpython) repository.
+Although the features collected here may not be widely known, they are supposed to be potentially useful in your day-to-day work (and mine too!). The goal is *not* to collect tricks or surprising behaviors that make you ask yourself "WTF is going on here?". If this is what you were looking for this is not the right place, but I can recommend you to spend some time on the amazing [wtfpython](https://github.com/satwikkansal/wtfpython) repository.
 
 ## Index
 
@@ -12,6 +12,16 @@ Although the features collected here may not be widely known, they are supposed 
 * [**Using `timeit` module for easy timing of small bits of code**](./src/timeit.ipynb)
 * [**`Type hints`: what are these guys?**](./src/type_hints.ipynb)
 * [**`@` infix operator for matrix multiplication**](./src/matmul_infix_op.ipynb)
+
+## [Spoiler Alert] Next - notes for my future self
+* Ellipsis
+* Semplifying imports
+* Argument unpacking
+* String f-formatting
+* Dictionary comprehensions
+* Generator expressions
+* Advanced type hints
+* ...
 
 ## FAQ
 * **I know this hidden gem, but it's not mentioned here!**
